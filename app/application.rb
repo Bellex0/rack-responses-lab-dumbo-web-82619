@@ -7,5 +7,10 @@ class Application
   current_time = Time.now 
   
   if current_time < noon
-    resp.write "current_time < noon"
+    resp.write "Good Morning!"
+  else
+    resp.write "Good Afternoon!"
+  end
+  
+  
    
