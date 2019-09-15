@@ -7,5 +7,5 @@ class Application
   current_time = Time.now 
   
   if current_time < noon
-    resp.write ""
+    resp.write "current_time < noon"
    
